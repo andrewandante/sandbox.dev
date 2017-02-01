@@ -1,0 +1,49 @@
+---
+Name: search
+---
+Heyday\Elastica\ElasticaService: # Example of customising the index config on the elastic search server (completely optional).
+  index_config:
+    analysis:
+      analyzer:
+        default :
+          type : custom
+          tokenizer : standard
+          filter :
+            - standard
+            - lowercase
+            - stemming_filter
+      filter:
+        stemming_filter:
+          type: snowball
+          language: English
+
+Director:
+  rules:
+    'search': 'SearchController'
+
+Page:
+  extensions:
+    - Heyday\Elastica\Searchable
+  indexed_fields: &page_defaults
+    - Title
+    - MenuTitle
+    - Content
+    - MetaDescription
+
+Injector:
+  Elastica\Client:
+    constructor:
+      - host: localhost # hostname of the elastic search server
+        port: 9200 # port number of the elastic search server
+
+  Logger:
+    class: Monolog\Logger
+    constructor:
+      0: App
+
+  Heyday\Elastica\ElasticaService:
+    constructor:
+      - %$Elastica\Client
+      - name-of-index  # name of the index on the elastic search server
+      - %$Logger  # your error logger (must implement psr/log interface)
+      - 64MB      # increases memory limit while indexing
