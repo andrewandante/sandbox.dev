@@ -1,4 +1,4 @@
-infrastructure: ^3.8.0
+infrastructure: dev-remove_always_populate_raw_post_data
 shared_dirs:
   mysite:
     testfolder: {}
