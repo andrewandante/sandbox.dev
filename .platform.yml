@@ -20,3 +20,5 @@ http_settings:
 php_settings:
   cli:
     memory_limit: "2048M"
+hello:
+  random_change: "4"
