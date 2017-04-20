@@ -1,4 +1,4 @@
-infrastructure: 672dbe4330995cd1c00a36fbb5f9b16427451423
+infrastructure: 3.9.2
 shared_dirs:
   mysite:
     testfolder: {}
