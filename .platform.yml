@@ -1,4 +1,4 @@
-infrastructure: 3.9.0
+infrastructure: hotfix-curl-retries
 shared_dirs:
   mysite:
     testfolder: {}
