@@ -1,4 +1,4 @@
-infrastructure: "dev-master"
+infrastructure: "dev-integrate-cloudinit-module"
 shared_dirs:
   mysite:
     testfolder: {}
