@@ -1,4 +1,4 @@
-infrastructure: ^3.9.1
+infrastructure: dev-automatic-session-gc
 shared_dirs:
   mysite:
     testfolder: {}

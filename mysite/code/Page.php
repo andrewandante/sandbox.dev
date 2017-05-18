@@ -57,6 +57,7 @@ class Page extends SiteTree {
 		foreach(array(
 			'Hostname' => $_SERVER['HTTP_HOST'],
 			'Document root' => $_SERVER['DOCUMENT_ROOT'],
+			'SessionTimeout' => $this->getSessionTimeout().' seconds',
 			'Platform' => $platform,
 			'Web server' => $_SERVER['SERVER_SOFTWARE'],
 			'PHP' => phpversion(),
@@ -81,6 +82,16 @@ class Page extends SiteTree {
 		}
 
 		return [];
+	}
+
+	protected function getSessionTimeout() {
+		if (defined('AWS_DYNAMODB_SESSION_LIFETIME')) {
+			return AWS_DYNAMODB_SESSION_LIFETIME;
+		}
+		if (($timeout = (int)Config::inst()->get('Session', 'timeout')) > 0) {
+			return $timeout;
+		}
+		return (int) ini_get('session.gc_maxlifetime');
 	}
 }
 

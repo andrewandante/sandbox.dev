@@ -1,3 +1,4 @@
 # Sandbox
 
-Generic SilverStripe test code
+Generic SilverStripe test site with a few tweaks
+

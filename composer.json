@@ -7,7 +7,7 @@
     "silverstripe/framework": "~3.5.0",
     "silverstripe/crontask": "*",
     "silverstripe/environmentcheck": "*",
-    "silverstripe/dynamodb": "*"
+    "silverstripe/dynamodb": "dev-remove-gc"
   },
   "require-dev": {
     "phpunit/PHPUnit": "~4.8@stable"
