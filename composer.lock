@@ -1664,12 +1664,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-environmentcheck.git",
-                "reference": "5897559cd298fcc09c6874236e7c9e531d30b47a"
+                "reference": "7204c4792df7b5780dbd29306adf513bbeba84d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-environmentcheck/zipball/5897559cd298fcc09c6874236e7c9e531d30b47a",
-                "reference": "5897559cd298fcc09c6874236e7c9e531d30b47a",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-environmentcheck/zipball/7204c4792df7b5780dbd29306adf513bbeba84d0",
+                "reference": "7204c4792df7b5780dbd29306adf513bbeba84d0",
                 "shasum": ""
             },
             "require": {
@@ -1711,7 +1711,7 @@
                 "silverstripe",
                 "testing"
             ],
-            "time": "2017-05-04 06:00:25"
+            "time": "2017-05-26 16:50:12"
         },
         {
             "name": "silverstripe/framework",
