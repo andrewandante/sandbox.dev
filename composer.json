@@ -3,8 +3,8 @@
   "description": "This is stigs SilverStripe sandbox",
   "require": {
     "php": ">=5.6",
-    "silverstripe/cms": "~3.5.0",
-    "silverstripe/framework": "~3.5.0",
+    "silverstripe/cms": "3.6.0.x-dev",
+    "silverstripe/framework": "3.6.0.x-dev",
     "silverstripe/crontask": "*",
     "silverstripe/environmentcheck": "*",
     "silverstripe/dynamodb": "*"
