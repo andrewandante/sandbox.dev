@@ -7,9 +7,15 @@
     "silverstripe/framework": "4.0.x-dev",
     "silverstripe/crontask": "*",
     "silverstripe/environmentcheck": "*",
-    "silverstripe/dynamodb": "*",
+    "silverstripe/dynamodb": "dev-FIX/remove-object as 2.x-dev",
     "silverstripe/asset-admin": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:andrewandante/silverstripe-dynamodb.git"
+    }
+  ],
   "require-dev": {
     "phpunit/PHPUnit": "~4.8@stable"
   },

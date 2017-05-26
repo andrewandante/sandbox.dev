@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6ec3c95f28c2037e05f11783f55d0f3",
-    "content-hash": "c8dadd903d7ddab86b572244903ca756",
+    "hash": "cb3ea132f9d8ed7f8626b00979a02247",
+    "content-hash": "edadc6f769a0f0f53f05644c5b7b4864",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1602,16 +1602,16 @@
         },
         {
             "name": "silverstripe/dynamodb",
-            "version": "dev-master",
+            "version": "dev-FIX/remove-object",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-dynamodb.git",
-                "reference": "e5015067088903fd4d7106b38eea5ee7c280f612"
+                "url": "https://github.com/andrewandante/silverstripe-dynamodb.git",
+                "reference": "d37cabb61b55161c87c2a0b653f6feba8245f5db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-dynamodb/zipball/e5015067088903fd4d7106b38eea5ee7c280f612",
-                "reference": "e5015067088903fd4d7106b38eea5ee7c280f612",
+                "url": "https://api.github.com/repos/andrewandante/silverstripe-dynamodb/zipball/d37cabb61b55161c87c2a0b653f6feba8245f5db",
+                "reference": "d37cabb61b55161c87c2a0b653f6feba8245f5db",
                 "shasum": ""
             },
             "require": {
@@ -1636,7 +1636,11 @@
                     "SilverStripe\\DynamoDb\\Tests\\": "tests/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "lint": [
+                    "phpcs code/ tests/"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1656,7 +1660,10 @@
                 "dynamodb",
                 "silverstripe"
             ],
-            "time": "2017-04-24 03:51:27"
+            "support": {
+                "source": "https://github.com/andrewandante/silverstripe-dynamodb/tree/FIX/remove-object"
+            },
+            "time": "2017-05-26 18:58:15"
         },
         {
             "name": "silverstripe/environmentcheck",
@@ -3643,11 +3650,19 @@
             "time": "2016-11-23 20:04:41"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "2.x-dev",
+            "alias_normalized": "2.9999999.9999999.9999999-dev",
+            "version": "dev-FIX/remove-object",
+            "package": "silverstripe/dynamodb"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/cms": 20,
         "silverstripe/framework": 20,
+        "silverstripe/dynamodb": 20,
         "silverstripe/asset-admin": 20,
         "phpunit/phpunit": 0
     },
