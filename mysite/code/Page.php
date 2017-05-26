@@ -87,9 +87,9 @@ class Page extends SiteTree {
 	}
 }
 
-class Page_Controller extends ContentController {
+class PageController extends ContentController {
 
-	public function init() {
+	protected function init() {
 		parent::init();
 		Requirements::themedCSS('layout');
 	}
