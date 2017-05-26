@@ -12,3 +12,7 @@ silverstripe-cache/
 /silverstripe-dynamodb/
 /asset-admin/
 /graphql/
+/campaign-admin/
+/silverstripe-admin/
+/silverstripe-assets/
+/versioned/
