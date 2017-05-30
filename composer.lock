@@ -1219,12 +1219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "9b414475dba242c70edfc8407fde96a2513faa6c"
+                "reference": "69dec0c66cdda6acdbd007c65978dc8814a7a3dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/9b414475dba242c70edfc8407fde96a2513faa6c",
-                "reference": "9b414475dba242c70edfc8407fde96a2513faa6c",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/69dec0c66cdda6acdbd007c65978dc8814a7a3dc",
+                "reference": "69dec0c66cdda6acdbd007c65978dc8814a7a3dc",
                 "shasum": ""
             },
             "require": {
@@ -1267,7 +1267,7 @@
                 "admin",
                 "silverstripe"
             ],
-            "time": "2017-05-26 02:58:30"
+            "time": "2017-05-29 23:53:02"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1275,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-asset-admin.git",
-                "reference": "757cdfc4c0e9351d985c65573dd054e0bcc00622"
+                "reference": "a2ac0cc527e42719890673237cfe8ac2eaf4cf5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/757cdfc4c0e9351d985c65573dd054e0bcc00622",
-                "reference": "757cdfc4c0e9351d985c65573dd054e0bcc00622",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/a2ac0cc527e42719890673237cfe8ac2eaf4cf5f",
+                "reference": "a2ac0cc527e42719890673237cfe8ac2eaf4cf5f",
                 "shasum": ""
             },
             "require": {
@@ -1314,7 +1314,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Asset management for the SilverStripe CMS",
-            "time": "2017-05-26 03:06:00"
+            "time": "2017-05-30 00:23:57"
         },
         {
             "name": "silverstripe/assets",
@@ -1382,12 +1382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-campaign-admin.git",
-                "reference": "491bb0ef906b731adf5e33d4dfa51f2b1575a840"
+                "reference": "17efd170ff77ba5880328cf429d40646020b6ff2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-campaign-admin/zipball/491bb0ef906b731adf5e33d4dfa51f2b1575a840",
-                "reference": "491bb0ef906b731adf5e33d4dfa51f2b1575a840",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-campaign-admin/zipball/17efd170ff77ba5880328cf429d40646020b6ff2",
+                "reference": "17efd170ff77ba5880328cf429d40646020b6ff2",
                 "shasum": ""
             },
             "require": {
@@ -1432,7 +1432,7 @@
                 "silverstripe",
                 "versioned"
             ],
-            "time": "2017-05-24 22:36:17"
+            "time": "2017-05-29 02:39:29"
         },
         {
             "name": "silverstripe/cms",
@@ -1440,12 +1440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "af1b2fc37f2a04d2aef234a62d326ce825c2f042"
+                "reference": "e31b09fef3d6013caa2744862015e0afc0d9d1b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/af1b2fc37f2a04d2aef234a62d326ce825c2f042",
-                "reference": "af1b2fc37f2a04d2aef234a62d326ce825c2f042",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/e31b09fef3d6013caa2744862015e0afc0d9d1b8",
+                "reference": "e31b09fef3d6013caa2744862015e0afc0d9d1b8",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2017-05-26 03:29:29"
+            "time": "2017-05-30 00:45:01"
         },
         {
             "name": "silverstripe/config",
@@ -1726,12 +1726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "adb2641ca6d99c35848806f4079095f8c28950c4"
+                "reference": "11de4abe0aa08907ed085fe4ec24359198d74c2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/adb2641ca6d99c35848806f4079095f8c28950c4",
-                "reference": "adb2641ca6d99c35848806f4079095f8c28950c4",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/11de4abe0aa08907ed085fe4ec24359198d74c2f",
+                "reference": "11de4abe0aa08907ed085fe4ec24359198d74c2f",
                 "shasum": ""
             },
             "require": {
@@ -1829,7 +1829,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2017-05-26 00:07:07"
+            "time": "2017-05-30 11:41:09"
         },
         {
             "name": "silverstripe/graphql",
@@ -2092,12 +2092,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "bfa3962834ea7b72406ca81b6203733883a76f40"
+                "reference": "33745ccf8c0f7d9eefa00158bdcf50c31ea3a69d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/bfa3962834ea7b72406ca81b6203733883a76f40",
-                "reference": "bfa3962834ea7b72406ca81b6203733883a76f40",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/33745ccf8c0f7d9eefa00158bdcf50c31ea3a69d",
+                "reference": "33745ccf8c0f7d9eefa00158bdcf50c31ea3a69d",
                 "shasum": ""
             },
             "require": {
@@ -2156,7 +2156,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2017-05-25 05:53:40"
+            "time": "2017-05-28 10:56:43"
         },
         {
             "name": "symfony/config",
@@ -2164,12 +2164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "d08cc20d9cd5c931cb480a752ccd4fa8370a8976"
+                "reference": "cd28548446fc35020387f0b9b61125ee7178ef29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/d08cc20d9cd5c931cb480a752ccd4fa8370a8976",
-                "reference": "d08cc20d9cd5c931cb480a752ccd4fa8370a8976",
+                "url": "https://api.github.com/repos/symfony/config/zipball/cd28548446fc35020387f0b9b61125ee7178ef29",
+                "reference": "cd28548446fc35020387f0b9b61125ee7178ef29",
                 "shasum": ""
             },
             "require": {
@@ -2216,7 +2216,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-24 09:02:43"
+            "time": "2017-05-29 18:41:56"
         },
         {
             "name": "symfony/filesystem",
@@ -2224,12 +2224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "ba06ca49afa0f6c2b38ddd0710c9b60dc5cf5ab0"
+                "reference": "149797cb8c3aa4db19059464bda47a464289eb28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/ba06ca49afa0f6c2b38ddd0710c9b60dc5cf5ab0",
-                "reference": "ba06ca49afa0f6c2b38ddd0710c9b60dc5cf5ab0",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/149797cb8c3aa4db19059464bda47a464289eb28",
+                "reference": "149797cb8c3aa4db19059464bda47a464289eb28",
                 "shasum": ""
             },
             "require": {
@@ -2265,7 +2265,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-18 12:57:29"
+            "time": "2017-05-28 14:09:45"
         },
         {
             "name": "symfony/finder",
@@ -2322,12 +2322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                "reference": "adebc086600bc93b45d8d6721c8f21088a2be4dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/adebc086600bc93b45d8d6721c8f21088a2be4dc",
+                "reference": "adebc086600bc93b45d8d6721c8f21088a2be4dc",
                 "shasum": ""
             },
             "require": {
@@ -2373,7 +2373,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2017-05-29 15:51:17"
         },
         {
             "name": "symfony/translation",
@@ -2445,12 +2445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0ee1516aaccdf459f418acd4d30d3ca3a13d2141"
+                "reference": "148fc194e031b0640093868d7cf408378996a0d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0ee1516aaccdf459f418acd4d30d3ca3a13d2141",
-                "reference": "0ee1516aaccdf459f418acd4d30d3ca3a13d2141",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/148fc194e031b0640093868d7cf408378996a0d6",
+                "reference": "148fc194e031b0640093868d7cf408378996a0d6",
                 "shasum": ""
             },
             "require": {
@@ -2492,7 +2492,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-25 23:27:00"
+            "time": "2017-05-28 10:56:43"
         },
         {
             "name": "vlucas/phpdotenv",
