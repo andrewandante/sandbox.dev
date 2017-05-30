@@ -81,7 +81,7 @@ class Page extends SiteTree {
 
 		$filePath = BASE_PATH.'/.platform.yml';
 		if(is_readable($filePath)) {
-			return \Symfony\Component\Yaml\Yaml::parse($filePath);
+			return \Symfony\Component\Yaml\Yaml::parse(file_get_contents($filePath));
 		}
 		return [];
 	}
