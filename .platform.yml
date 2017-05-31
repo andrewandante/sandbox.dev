@@ -1,4 +1,4 @@
-infrastructure: ^3.9.1
+infrastructure: "dev-feature/SS4-compat"
 shared_dirs:
   mysite:
     testfolder: {}
