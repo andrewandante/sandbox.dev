@@ -1,4 +1,4 @@
-infrastructure: "dev-feature/SS4-compat"
+infrastructure: "dev-feature/sushi"
 shared_dirs:
   mysite:
     testfolder: {}
