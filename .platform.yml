@@ -1,4 +1,4 @@
-infrastructure: "dev-feature/sushi"
+infrastructure: "dev-master"
 shared_dirs:
   mysite:
     testfolder: {}
