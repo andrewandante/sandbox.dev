@@ -7,11 +7,18 @@
     "silverstripe/framework": "~3.5.0",
     "silverstripe/crontask": "*",
     "silverstripe/environmentcheck": "*",
-    "silverstripe/dynamodb": "*"
+    "silverstripe/dynamodb": "*",
+    "silverstripe-platform/assetsync": "dev-develop"
   },
   "require-dev": {
     "phpunit/PHPUnit": "~4.8@stable"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:andrewandante/silverstripe-platform-assetsync.git"
+    }
+  ],
   "config": {
     "process-timeout": 600
   },

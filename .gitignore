@@ -10,4 +10,6 @@ vendor/
 assets/
 silverstripe-cache/
 silverstripe-dynamodb
-
+assetsync/
+multivaluefield/
+queuedjobs/
