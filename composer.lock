@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb3ea132f9d8ed7f8626b00979a02247",
-    "content-hash": "edadc6f769a0f0f53f05644c5b7b4864",
+    "hash": "89b7d8de4dfc20437012bcf9b4d47c73",
+    "content-hash": "570391297ee257683e9ddafdc4940519",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1681,16 +1681,16 @@
         },
         {
             "name": "silverstripe/dynamodb",
-            "version": "dev-FIX/remove-object",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/andrewandante/silverstripe-dynamodb.git",
-                "reference": "d37cabb61b55161c87c2a0b653f6feba8245f5db"
+                "url": "https://github.com/silverstripe/silverstripe-dynamodb.git",
+                "reference": "5983c4877b9d4518427e18685aff45cc9b136f6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andrewandante/silverstripe-dynamodb/zipball/d37cabb61b55161c87c2a0b653f6feba8245f5db",
-                "reference": "d37cabb61b55161c87c2a0b653f6feba8245f5db",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-dynamodb/zipball/5983c4877b9d4518427e18685aff45cc9b136f6c",
+                "reference": "5983c4877b9d4518427e18685aff45cc9b136f6c",
                 "shasum": ""
             },
             "require": {
@@ -1715,11 +1715,7 @@
                     "SilverStripe\\DynamoDb\\Tests\\": "tests/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "phpcs code/ tests/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1739,23 +1735,20 @@
                 "dynamodb",
                 "silverstripe"
             ],
-            "support": {
-                "source": "https://github.com/andrewandante/silverstripe-dynamodb/tree/FIX/remove-object"
-            },
-            "time": "2017-05-26 18:58:15"
+            "time": "2017-06-14 01:52:52"
         },
         {
             "name": "silverstripe/environmentcheck",
-            "version": "dev-master",
+            "version": "dev-BUGFIX/allowed_actions_not_private",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-environmentcheck.git",
-                "reference": "7204c4792df7b5780dbd29306adf513bbeba84d0"
+                "url": "https://github.com/andrewandante/silverstripe-environmentcheck.git",
+                "reference": "7d8a6dda96db4cd164b2835759ac1ffe38c65891"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-environmentcheck/zipball/7204c4792df7b5780dbd29306adf513bbeba84d0",
-                "reference": "7204c4792df7b5780dbd29306adf513bbeba84d0",
+                "url": "https://api.github.com/repos/andrewandante/silverstripe-environmentcheck/zipball/7d8a6dda96db4cd164b2835759ac1ffe38c65891",
+                "reference": "7d8a6dda96db4cd164b2835759ac1ffe38c65891",
                 "shasum": ""
             },
             "require": {
@@ -1776,18 +1769,22 @@
                     "SilverStripe\\EnvironmentCheck\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "SilverStripe\\EnvironmentCheck\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "BSD-3-Clause"
             ],
             "authors": [
                 {
-                    "name": "Sam Minnée",
-                    "email": "sam@silverstripe.com"
-                },
-                {
                     "name": "Will Rossiter",
                     "email": "will@fullscreen.io"
+                },
+                {
+                    "name": "Sam Minnee",
+                    "email": "sam@silverstripe.com"
                 }
             ],
             "description": "Provides an API for building environment tests",
@@ -1797,7 +1794,10 @@
                 "silverstripe",
                 "testing"
             ],
-            "time": "2017-05-26 16:50:12"
+            "support": {
+                "source": "https://github.com/andrewandante/silverstripe-environmentcheck/tree/BUGFIX/allowed_actions_not_private"
+            },
+            "time": "2017-08-10 11:13:35"
         },
         {
             "name": "silverstripe/framework",
@@ -3742,19 +3742,12 @@
             "time": "2016-11-23 20:04:41"
         }
     ],
-    "aliases": [
-        {
-            "alias": "2.x-dev",
-            "alias_normalized": "2.9999999.9999999.9999999-dev",
-            "version": "dev-FIX/remove-object",
-            "package": "silverstripe/dynamodb"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/cms": 20,
         "silverstripe/framework": 20,
-        "silverstripe/dynamodb": 20,
+        "silverstripe/environmentcheck": 20,
         "silverstripe/asset-admin": 20,
         "phpunit/phpunit": 0
     },

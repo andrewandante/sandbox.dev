@@ -6,14 +6,14 @@
     "silverstripe/cms": "4.0.x-dev",
     "silverstripe/framework": "4.0.x-dev",
     "silverstripe/crontask": "*",
-    "silverstripe/environmentcheck": "*",
-    "silverstripe/dynamodb": "dev-FIX/remove-object as 2.x-dev",
+    "silverstripe/environmentcheck": "dev-BUGFIX/allowed_actions_not_private",
+    "silverstripe/dynamodb": "*",
     "silverstripe/asset-admin": "dev-master"
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:andrewandante/silverstripe-dynamodb.git"
+      "url": "git@github.com:andrewandante/silverstripe-environmentcheck.git"
     }
   ],
   "require-dev": {
