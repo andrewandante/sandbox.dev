@@ -5,7 +5,6 @@
 <!--[if IE 9]><html class="no-js ie9 gumby-no-touch" id="ie9" lang="en"><![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js gumby-no-touch" lang="$ContentLocale"><!--<![endif]-->
 <head>
-	<% base_tag %>
 	<%-- $FilterDescription adds additional information from the news and events areas --%>
 	<title>$Title <% if FilterDescription %>- $FilterDescription<% end_if %> | $SiteConfig.Title</title>
 
