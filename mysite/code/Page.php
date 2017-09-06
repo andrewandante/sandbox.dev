@@ -62,8 +62,10 @@ class Page extends SiteTree {
 		$list = new ArrayList();
 		foreach(array(
 			'Hostname' => $_SERVER['HTTP_HOST'],
-			'BaseURL' => \SilverStripe\Control\Director::baseURL(),
+			'DirectorBaseURL' => \SilverStripe\Control\Director::baseURL(),
+			'ConstantBaseURL' => BASE_URL,
 			'AbsoluteBaseURL' => \SilverStripe\Control\Director::absoluteBaseURL(),
+			'ProtocolAndHost' => \SilverStripe\Control\Director::protocolAndHost(),
 			'Document root' => $_SERVER['DOCUMENT_ROOT'],
 			'Platform' => $platform,
 			'Web server' => $_SERVER['SERVER_SOFTWARE'],
