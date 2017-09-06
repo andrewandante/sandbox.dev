@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6ec3c95f28c2037e05f11783f55d0f3",
-    "content-hash": "c8dadd903d7ddab86b572244903ca756",
+    "hash": "2e7b43577fc1febe97c6a0fb8f9ee456",
+    "content-hash": "5f9a4616381e781ab2583ab215ce9fda",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1790,16 +1790,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "4.x-dev",
+            "version": "dev-FIX/PHP_URL_HOST",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "b270eee1b08f80a8f259a6b463e100746b6e51b0"
+                "url": "https://github.com/andrewandante/silverstripe-framework.git",
+                "reference": "dd9e0cf41e8c38ef3917c74cb564155e053c6444"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/b270eee1b08f80a8f259a6b463e100746b6e51b0",
-                "reference": "b270eee1b08f80a8f259a6b463e100746b6e51b0",
+                "url": "https://api.github.com/repos/andrewandante/silverstripe-framework/zipball/dd9e0cf41e8c38ef3917c74cb564155e053c6444",
+                "reference": "dd9e0cf41e8c38ef3917c74cb564155e053c6444",
                 "shasum": ""
             },
             "require": {
@@ -1873,12 +1873,22 @@
                     "src/includes/constants.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "src/",
                 "src/includes/",
                 "thirdparty/"
             ],
+            "scripts": {
+                "lint": [
+                    "phpcs src/ tests/php/ tests/behat/src/"
+                ],
+                "lint-clean": [
+                    "phpcbf src/ tests/php/ tests/behat/src/"
+                ],
+                "php-peg": [
+                    "php thirdparty/php-peg/cli.php src/View/SSTemplateParser.peg > src/View/SSTemplateParser.php"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1898,7 +1908,10 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2017-09-06 01:08:49"
+            "support": {
+                "source": "https://github.com/andrewandante/silverstripe-framework/tree/FIX/PHP_URL_HOST"
+            },
+            "time": "2017-09-06 12:39:43"
         },
         {
             "name": "silverstripe/graphql",
@@ -3786,7 +3799,14 @@
             "time": "2016-11-23 20:04:41"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "4.0.x-dev",
+            "alias_normalized": "4.0.9999999.9999999-dev",
+            "version": "dev-FIX/PHP_URL_HOST",
+            "package": "silverstripe/framework"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/cms": 20,
