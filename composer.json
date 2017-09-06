@@ -6,16 +6,10 @@
     "silverstripe/cms": "4.0.x-dev",
     "silverstripe/framework": "4.0.x-dev",
     "silverstripe/crontask": "*",
-    "silverstripe/environmentcheck": "dev-BUGFIX/allowed_actions_not_private",
+    "silverstripe/environmentcheck": "*",
     "silverstripe/dynamodb": "*",
     "silverstripe/asset-admin": "dev-master"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:andrewandante/silverstripe-environmentcheck.git"
-    }
-  ],
   "require-dev": {
     "phpunit/PHPUnit": "~4.8@stable"
   },
