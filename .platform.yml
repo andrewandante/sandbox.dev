@@ -1,4 +1,4 @@
-infrastructure: "dev-master"
+infrastructure: "dev-FIX/SS_BASE_URL"
 shared_dirs:
   mysite:
     testfolder: {}
