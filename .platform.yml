@@ -1,1 +1,19 @@
-infrastructure: 2.0.17
+infrastructure: "dev-master"
+php_settings:
+  cli:
+    log_errors_max_len: 0
+    memory_limit: 256M
+    apc.shm_size: 64M
+    max_execution_time: '60'
+  http:
+    log_errors_max_len: 0
+    memory_limit: 256M
+    apc.shm_size: 64M
+    max_execution_time: '60'
+http_settings:
+  max_upload_size: "32"
+apache:
+  prefork:
+    maxclients: 80
+    serverlimit: 80
+
