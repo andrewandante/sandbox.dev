@@ -1,26 +1,33 @@
 {
-  "name": "stojg/sandbox.dev",
-  "description": "This is stigs SilverStripe sandbox",
-  "require": {
-    "php": ">=5.6",
-    "silverstripe/cms": "4.0.x-dev",
-    "silverstripe/framework": "dev-patch-2 as 4.0.x-dev",
-    "silverstripe/crontask": "*",
-    "silverstripe/environmentcheck": "*",
-    "silverstripe/dynamodb": "*",
-    "silverstripe/asset-admin": "dev-master"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:andrewandante/silverstripe-framework.git"
+    "name": "stojg/sandbox.dev",
+    "description": "This is stigs SilverStripe sandbox",
+    "require": {
+        "php": ">=5.6",
+        "silverstripe/recipe-cms": "1.0.0-rc1",
+        "silverstripe/recipe-plugin": "^1.0",
+        "silverstripe/crontask": "*",
+        "silverstripe/environmentcheck": "*",
+        "silverstripe/dynamodb": "*"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.8@stable"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "project-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "mysite/.htaccess",
+            "mysite/_config.php",
+            "mysite/_config/mysite.yml",
+            "mysite/code/Page.php",
+            "mysite/code/PageController.php",
+            "web.config"
+        ]
     }
-  ],
-  "require-dev": {
-    "phpunit/PHPUnit": "~4.8@stable"
-  },
-  "config": {
-    "process-timeout": 600
-  },
-  "minimum-stability": "dev"
 }
